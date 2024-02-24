@@ -1,0 +1,13 @@
+Queries
+
+INSERT INTO User (userid,Name,age , Address, City, Country)
+VALUES (100,'Cardinal',25, 'xyz city', 'karachi', 'pakistan');
+
+insert into page(userid,pageid,name,description)
+VALUES (100,1,"BBC","This is a worldwide news casting platform","Media",4);
+
+insert into FeedItem(pageid,feedid,contentlink,text)
+VALUES (1,40,"...........",".........");
+
+insert into userinfo(userid,pageid,feedid,like,dislike)
+
